@@ -1,10 +1,10 @@
 # Elk-Stack-Project
 Live ELK Deployment on Azure
 
-The files in this repository were used to configure the network depicted below.
+The files in this repository were used to configure the network.
 
 
-These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the PLAYBOOK file may be used to install only certain pieces of it, such as Filebeat.
+These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment. Alternatively, select portions of the PLAYBOOK file may be used to install only certain pieces of it, such as Filebeat.
 
   - filebeat-playbook.yml
     /etc/ansible/roles/filebeat-playbook.yml
