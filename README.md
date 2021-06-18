@@ -4,6 +4,7 @@ Live ELK Deployment on Azure
 The files in this repository were used to configure the network.
 
 
+
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment. Alternatively, select portions of the PLAYBOOK file may be used to install only certain pieces of it, such as Filebeat.
 
   - filebeat-playbook.yml
@@ -108,6 +109,9 @@ The playbook implements the following tasks:
 - * ADD SECURITY RULE TO ALLOW ELK TO ACCESS VNET
 
 
+
+
+
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
 WEB1 IP 10.0.0.5 & WEB2 10.0.0.6
@@ -126,5 +130,8 @@ SSH into the control node and follow the steps below:
 - Copy the ANSIBLE HOSTS FILE file to /ETC/ANSIBLE.
 - Update the HOSTS file to include...INTERNAL IP ADDRESS OF THE WEB SERVERS & ELK SERVERS, AS WELL AS THE REMOTE USER INFORMATION
 - Run the playbook, and navigate to KIBANA to check that the installation worked as expected.
+
+
+
 
 
