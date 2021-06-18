@@ -3,7 +3,7 @@ Live ELK Deployment on Azure
 
 The files in this repository were used to configure the network.
 
-
+https://github.com/sweetdelightss/Elk-Stack-Project/blob/main/Automated%20ELK%20Stack%20Deployment.png?raw=true 
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment. Alternatively, select portions of the PLAYBOOK file may be used to install only certain pieces of it, such as Filebeat.
 
